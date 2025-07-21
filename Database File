@@ -1,0 +1,62 @@
+---create database----
+create database hospitalmanagementsystem;
+-----use database----
+use hospitalmanagementsystem;
+
+--create table login---
+create table login(ID varchar(20),PW varchar(20)) ;
+select*from login;
+insert into login value("Ritik Katiyar","Ritik@2006");
+
+--create table patient_info----
+create table patient_info(ID varchar(20),Number varchar(20),Name varchar(20),Gender varchar(20),Patient_Disease varchar(20),Room_Number varchar(20),Time varchar(100),Deposite varchar(20));
+select*from patient_info;
+
+--create table room----
+create table Room(room_no varchar(20),Availability varchar(20),Price varchar(20),Room_Type varchar(100));
+select*from Room
+ 
+- --insert data into room table----
+ INSERT INTO Room (room_no, Availability, Price, Room_type) VALUES
+("100", "Available", 500, "G Bed 1"),
+("101", "Available", 500, "G Bed 2"),
+("102", "Available", 500, "G Bed 3"),
+("103", "Available", 500, "G Bed 4"),
+("200", "Available", 1500, "Private Room"),
+("201", "Available", 1500, "Private Room"),
+("202", "Available", 1500, "Private Room"),
+("203", "Available", 1500, "Private Room"),
+("300", "Available", 3500, "ICU Bed 1"),
+("301", "Available", 3500, "ICU Bed 2"),
+("302", "Available", 3500, "ICU Bed 3"),
+("303", "Available", 3500, "ICU Bed 4"),
+("304", "Available", 3500, "ICU Bed 5"),
+("305", "Available", 3500, "ICU Bed 6");
+
+---- create department table----
+
+create table department(Department varchar(100),Phone_no varchar(20));
+select*from department;
+insert into department(Department,Phone_no)values
+("Surgical department","4234534562"),
+("Nursing Department","9987644443"),
+("Paramedical Department","123445567"),
+("Operation Theater (OT)","5648739201"),
+("Emergency Department","9876453267");
+ 
+ ----Emp_InFO ----
+ create table Emp_InFO (Name varchar(20),Age varchar(20),Phone_Number varchar(20),salary varchar(20),Gmail varchar(20),Aadhar_Number varchar(20));
+ select*from Emp_InfO;
+ insert into Emp_Info(Name,Age,Phone_Number,salary,Gmail,Aadhar_Number) values
+ ("Ram","30","1234567891","5000","ram30@gmail.com","123456789876"),
+ ("Aman","28","7654329876","7000","aman28@gmail.com"," 789876123456"),
+ ("Mohan","32","6789112345","4000"," mohan32@gmail.com","89876123456"),
+ ("Radhika","20","1234915678","9000","radhika20@gmail.com","123498765678");
+ 
+ ---- create Ambulance table----
+ create table Ambulance (Name varchar(20),Gender varchar(20),Car_name varchar(20),Available varchar(30),Location varchar(20));
+ select*from Ambulance;
+ insert into Ambulance values("Karan Patel","Male","Breeza","Available","Geetanagar "),
+ ("Abhisek ","Male","Omani","Available","Kalyanpur "),
+ ("Madan","Male","Eco","Available","Rawatpur "),
+ ("Saurabh","Male","Aura","Available","Namak Factory ");
