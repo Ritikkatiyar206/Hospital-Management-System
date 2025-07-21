@@ -1,0 +1,11 @@
+hospital.management.system.Reception$2
+hospital.management.system.Reception$1
+hospital.management.system.Reception$10
+hospital.management.system.Reception$4
+hospital.management.system.Reception$3
+hospital.management.system.Reception$9
+hospital.management.system.Reception
+hospital.management.system.Reception$6
+hospital.management.system.Reception$5
+hospital.management.system.Reception$8
+hospital.management.system.Reception$7

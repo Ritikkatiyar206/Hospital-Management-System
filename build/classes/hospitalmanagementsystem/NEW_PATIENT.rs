@@ -1,0 +1,1 @@
+hospital.management.system.NEW_PATIENT
